@@ -1,0 +1,31 @@
+:root {
+  --color-dominant: #e6fde6;
+  --color-secondary: #1f2937;
+  --color-accent: #ec4899;
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--color-dominant);
+    color: var(--color-secondary);
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    color: var(--color-secondary);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    border-color: var(--color-secondary);
+    border-style: solid;
+    border-width: 2px;
+}
